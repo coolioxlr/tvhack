@@ -11,6 +11,12 @@
 		AA52EABD1CC3162D00A778AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52EABC1CC3162D00A778AB /* ViewController.swift */; };
 		AA52EAC01CC3162D00A778AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA52EABE1CC3162D00A778AB /* Main.storyboard */; };
 		AA52EAC21CC3162D00A778AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA52EAC11CC3162D00A778AB /* Assets.xcassets */; };
+		AA52EACA1CC32F8300A778AB /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52EAC91CC32F8300A778AB /* UIImage+Gif.swift */; };
+		AA52EACC1CC330D200A778AB /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52EACB1CC330D200A778AB /* GifViewController.swift */; };
+		AAA49F471CC332C00065E65D /* pig.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAA49F461CC332C00065E65D /* pig.gif */; };
+		AAA49F491CC335B30065E65D /* pigpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAA49F481CC335B30065E65D /* pigpic.jpg */; };
+		AAA49F4B1CC338F60065E65D /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA49F4A1CC338F60065E65D /* SAConfettiView.swift */; };
+		AAA49F4D1CC341120065E65D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA49F4C1CC341120065E65D /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		AA52EABF1CC3162D00A778AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA52EAC11CC3162D00A778AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA52EAC31CC3162D00A778AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA52EAC91CC32F8300A778AB /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		AA52EACB1CC330D200A778AB /* GifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
+		AAA49F461CC332C00065E65D /* pig.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pig.gif; sourceTree = "<group>"; };
+		AAA49F481CC335B30065E65D /* pigpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pigpic.jpg; sourceTree = "<group>"; };
+		AAA49F4A1CC338F60065E65D /* SAConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
+		AAA49F4C1CC341120065E65D /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,8 @@
 			isa = PBXGroup;
 			children = (
 				AA52EAB91CC3162D00A778AB /* cardgame */,
+				AAA49F461CC332C00065E65D /* pig.gif */,
+				AAA49F481CC335B30065E65D /* pigpic.jpg */,
 				AA52EAB81CC3162D00A778AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,11 +66,15 @@
 		AA52EAB91CC3162D00A778AB /* cardgame */ = {
 			isa = PBXGroup;
 			children = (
+				AAA49F4A1CC338F60065E65D /* SAConfettiView.swift */,
+				AA52EAC91CC32F8300A778AB /* UIImage+Gif.swift */,
 				AA52EABA1CC3162D00A778AB /* AppDelegate.swift */,
 				AA52EABC1CC3162D00A778AB /* ViewController.swift */,
 				AA52EABE1CC3162D00A778AB /* Main.storyboard */,
 				AA52EAC11CC3162D00A778AB /* Assets.xcassets */,
 				AA52EAC31CC3162D00A778AB /* Info.plist */,
+				AA52EACB1CC330D200A778AB /* GifViewController.swift */,
+				AAA49F4C1CC341120065E65D /* CategoryViewController.swift */,
 			);
 			path = cardgame;
 			sourceTree = "<group>";
@@ -119,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA49F471CC332C00065E65D /* pig.gif in Resources */,
+				AAA49F491CC335B30065E65D /* pigpic.jpg in Resources */,
 				AA52EAC21CC3162D00A778AB /* Assets.xcassets in Resources */,
 				AA52EAC01CC3162D00A778AB /* Main.storyboard in Resources */,
 			);
@@ -131,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA52EACA1CC32F8300A778AB /* UIImage+Gif.swift in Sources */,
 				AA52EABD1CC3162D00A778AB /* ViewController.swift in Sources */,
 				AA52EABB1CC3162D00A778AB /* AppDelegate.swift in Sources */,
+				AA52EACC1CC330D200A778AB /* GifViewController.swift in Sources */,
+				AAA49F4D1CC341120065E65D /* CategoryViewController.swift in Sources */,
+				AAA49F4B1CC338F60065E65D /* SAConfettiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +300,7 @@
 				AA52EAC81CC3162D00A778AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
